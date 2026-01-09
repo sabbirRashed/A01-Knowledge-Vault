@@ -25,9 +25,26 @@
 
 }
 
-.btn-primary:hover{
-    background-color:#a4bdae;
+.btn-primary:hover {
+    background-color: #a4bdae;
     color: #469165;
+
+}
+
+.primary-color {
+    color: #001931;
+
+}
+
+.secondary-color {
+    color: #627382;
+
+}
+
+.section-title {
+    font-size: 3rem;
+    font-weight: 700;
+
 }
 
 /* navigation bar style */
@@ -131,41 +148,98 @@
     margin-top: 16px;
 }
 
-.banner-title>span{
+.banner-title>span {
     color: #469165;
 }
 
-.banner-info{
+.banner-info {
     font-size: 1.125rem;
     color: white;
     margin: 16px 0 32px;
 }
 
-.banner-btn-container{
+.banner-btn-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 16px;
 }
 
-#banner-first-btn{
+#banner-first-btn {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
 
-#banner-second-btn{
+#banner-second-btn {
     color: white;
     background-color: transparent;
     border: 1px solid white;
 }
 
-#banner-second-btn:hover{
+#banner-second-btn:hover {
     background-color: #a4bdae;
     color: #469165;
 }
 
-#arrow{
+#arrow {
     rotate: -90;
+}
+
+/* notes section style */
+.notes {
+    background-color: #f7f6f2;
+
+}
+
+.notes-section-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.notes-sub-title {
+    margin-top: 16px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.card {
+    background-color: white;
+    padding: 69.5px 24px ;
+    margin-top: 44px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px #0000000f;
+}
+
+#card-4{
+    padding: 55px 24px;
+}
+
+.card-img-container{
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f95555;
+}
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+.card-info{
+    margin-top: 16px;
 }
