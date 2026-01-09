@@ -213,17 +213,17 @@
 
 .card {
     background-color: white;
-    padding: 69.5px 24px ;
+    padding: 69.5px 24px;
     margin-top: 44px;
     border-radius: 8px;
-    box-shadow: 0px 0px 8px #0000000f;
+    box-shadow: 0px 0px 8px 0px #0000000f;
 }
 
-#card-4{
+#card-4 {
     padding: 55px 24px;
 }
 
-.card-img-container{
+.card-img-container {
     margin: 0 auto;
     width: 60px;
     height: 60px;
@@ -234,12 +234,61 @@
     background-color: #f95555;
 }
 
-.card-title{
+.card-title {
     font-size: 1.5rem;
     font-weight: 600;
     margin-top: 16px;
 }
 
-.card-info{
+.card-info {
+    margin-top: 16px;
+}
+
+/* brain section style */
+.brain {
+    max-width: 1360px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.img-container>img {
+    width: 100%;
+}
+
+.brain-content {
+    padding: 102px 0px;
+
+}
+
+.brain-subtitle {
+    font-weight: 500;
+    color: #469165;
+
+}
+
+.brain-title{
+    max-width: 515px;
+    margin-top: 16px;
+}
+
+.brain-info{
+    margin-top: 16px;
+}
+
+.brain-list{
+    margin-top: 40px;
+}
+
+.brain-list>li{
+    list-style: none;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 6px;
     margin-top: 16px;
 }
