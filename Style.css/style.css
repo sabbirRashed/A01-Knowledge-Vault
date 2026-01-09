@@ -316,8 +316,9 @@
 /* footer section style */
 footer{
     width: 100%;
-    padding: 120px 0px;
+    padding: 120px 0px 30px;
     background-color: #001931;
+    text-align: center;
 }
 
 .footer-container{
@@ -326,6 +327,7 @@ footer{
     align-items: center;
     max-width: 1360px;
     margin: 0 auto;
+    
 }
 
 .footer-logo{
@@ -357,4 +359,15 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.copyright-box{
+    max-width: 1360px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+.copyright-text{
+    color: white;
+    margin-top: 30px;
 }
