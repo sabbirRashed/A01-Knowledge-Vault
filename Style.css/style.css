@@ -183,12 +183,9 @@
     color: #469165;
 }
 
-#arrow {
-    rotate: -90;
-}
 
 /* notes section style */
-.notes {
+.notes,.ready {
     background-color: #f7f6f2;
 
 }
@@ -291,4 +288,27 @@
     align-items: center;
     gap: 6px;
     margin-top: 16px;
+}
+
+/* ready section style */
+.ready{
+    max-width: 1360px;
+    margin: 120px auto;
+    padding: 80px 40px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.ready-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+
+}
+
+#ready-btn{
+    margin: 16px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
